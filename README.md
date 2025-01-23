@@ -14,13 +14,13 @@ so then I decided that I should build one!
 Technologies
 
 Frontend
-• React: For building the user interface.
-• Firebase Hosting: For deploying and serving the frontend.
+- React: For building the user interface.
+- Firebase Hosting: For deploying and serving the frontend.
 
 Backend
-• Node.js: Powers the backend logic for handling calculations.
-• Express.js: To set up the server-side logic for the API.
-• Google Cloud Functions: For serverless deployment of the backend.
+- Node.js: Powers the backend logic for handling calculations.
+- Express.js: To set up the server-side logic for the API.
+- Google Cloud Functions: For serverless deployment of the backend.
 
 How It Works
 1. Input Fields: Users enter the hole’s length and height difference.
