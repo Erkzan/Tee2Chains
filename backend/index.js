@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello, world!");
+  res.send("Welcome to Tee2Chains API");
 });
 
 app.get("/calcEffectiveLength", (req, res) => {
