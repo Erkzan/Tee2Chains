@@ -3,65 +3,67 @@
   padding: 0;
 }
 
-header {
-  background-color: #4f8b49;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header img {
-  width: 50%;
-}
-
 .body {
   background-color: #eee;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .calc {
-  height: 80%;
-  width: 80%;
+  height: 70%;
+  width: 90%;
   background-color: white;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
 }
 
 .calc .first {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 5% 0;
 }
 
 .calc .first .length {
   width: 60%;
-  margin: 5vh 0 0 10%;
+  margin: auto 0 auto 5%;
 }
 
 .calc .first .unit {
-  margin: 2vh 0 0 5%;
+  margin: 0 auto auto auto;
+  height: 55px;
 }
 
-.calc .height {
-  order: 2;
+.calc .second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.calc .second .height {
   width: 60%;
-  margin: 5% 0 0 10%;
+  margin: auto 0 auto 5%;
+}
+
+.calc .second .gradient {
+  margin: 0 auto auto auto;
+  height: 55px;
 }
 
 .calc .buttons {
   display: flex;
   flex-direction: row;
   order: 3;
-  margin: 5% 0 0 10%;
+  margin: 5% 0 0 5%;
   width: 60%;
 }
 
-.buttons .clearButton {
-  width: 30%;
-  margin-left: auto;
+.buttons .button {
+  width: 45%;
+  margin: auto;
 }

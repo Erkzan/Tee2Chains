@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "deploy": "gcloud functions deploy gcp-func-tee2chains --entry-point tee2chains --memory 256MB --runtime nodejs20 --trigger-http --project tee2chains"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mui/icons-material": "^6.4.0",
     "cors": "^2.8.5",
     "express": "^4.21.1"
   },

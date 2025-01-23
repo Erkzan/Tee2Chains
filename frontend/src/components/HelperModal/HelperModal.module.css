@@ -1,0 +1,44 @@
+.body {
+  width: 90%;
+  max-width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eee;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.helpHeader {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.helpHeader h1 {
+  margin-bottom: 3%;
+}
+
+.helpText {
+  margin-top: 5%;
+  width: 90%;
+}
+
+.helpText p {
+  margin-bottom: 5%;
+}
+
+.refer {
+  text-align: center;
+}
+
+.refer a {
+  text-decoration: none;
+  color: #4f8b49;
+}

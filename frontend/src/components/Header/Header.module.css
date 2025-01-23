@@ -1,0 +1,26 @@
+header {
+  background-color: #4f8b49;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+}
+
+.header .container img {
+  height: 75%;
+  margin: auto 0;
+}
+
+.header .container .helpIcon {
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
